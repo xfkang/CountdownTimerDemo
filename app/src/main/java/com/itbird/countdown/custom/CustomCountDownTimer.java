@@ -42,6 +42,10 @@ public abstract class CustomCountDownTimer {
      * @param countDownInterval 倒计时间隔时间
      */
     public CustomCountDownTimer(long millisInFuture, long countDownInterval) {
+        // 解决秒数有时会一开始就减去了2秒问题（如10秒总数的，刚开始就8999，然后没有不会显示9秒，直接到8秒）
+        if (countDownInterval > 1000) {
+            millisInFuture += 15;
+        }
         mMillisInFuture = millisInFuture;
         mCountdownInterval = countDownInterval;
     }
