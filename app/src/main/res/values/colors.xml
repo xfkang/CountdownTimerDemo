@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="transparent">#00000000</color>
+    <color name="btn_setclock_normal">#FF9900</color>
+    <color name="btn_setclock_pressed">#FFCC00</color>
 </resources>

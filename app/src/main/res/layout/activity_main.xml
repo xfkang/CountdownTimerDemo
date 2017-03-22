@@ -21,4 +21,9 @@
         android:layout_height="wrap_content"
         android:text="倒计时关闭Dialog" />
 
+    <Button
+        android:id="@+id/CountDownTimerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计时器演示" />
 </LinearLayout>

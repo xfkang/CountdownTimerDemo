@@ -30,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
                 showCountDownTimerDialog(MainActivity.this, 7);
             }
         });
+        findViewById(R.id.CountDownTimerView).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, CountDownTimerActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void showCountDownTimerDialog(Context context, int patientnumber) {

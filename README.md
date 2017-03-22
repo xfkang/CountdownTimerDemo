@@ -8,3 +8,7 @@
 
 ![CustomCountDownTimerDialog](https://github.com/xfkang/CountdownTimerDemo/blob/master/screenshot/CustomCountDownTimerDialog.gif)
 
+# 2017-3-23 CountDownTimer
+
+![CountDownTimer](https://github.com/xfkang/CountdownTimerDemo/blob/master/screenshot/CountDownTimer.gif)
+
